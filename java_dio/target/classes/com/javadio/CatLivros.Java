@@ -55,7 +55,7 @@ public Livro pesquisarPorTitulo(String titulo){
     return livroPorTitulo;
 }
 
-public static void main (String[] args){
+public static void main(String[] args){
     CatLivros ctLivros = new CatLivros();
     ctLivros.adicionarLivro("Livro 1 ","Autor 1",2020);
     ctLivros.adicionarLivro("Livro 2 ","Autor 2",2020);
