@@ -1,4 +1,6 @@
 package com.javadio;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CatLivro {
 /*Crie uma classe chamada "CatalogoLivros" que possui uma lista de objetos do tipo "Livro" como 
@@ -11,11 +13,11 @@ public class CatLivro {
     determinado intervalo de anos e retorna uma lista com os livros encontrados.
    c: Pesquisa livros por título e retorna o primeiro livro encontrado.
 */
-private list<Livro> livroList;
-public CatLivro(){this.CatLivros = new ArrayList<>();}
+private List<Livro> livroList;
+public catalogoLivro(){this.catLivros = new ArrayList<>();}
 
 public adicionarLivro(String titulo, String autor, int anoPublicacao){
-    cativro.add(new Livro(titulo, autor, anoPublicacao));
+    catLivro.add(new Livro(titulo, autor, anoPublicacao));
 }
 
 public esquisarPorAutor(String autor){
