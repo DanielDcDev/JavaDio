@@ -1,4 +1,4 @@
-package com.javadio;
+package com.javadio.list;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class CatLivro {
     pesquisarPorIntervaloAnos(int anoInicial, int anoFinal): Pesquisa livros publicados em um 
     determinado intervalo de anos e retorna uma lista com os livros encontrados.
    c: Pesquisa livros por título e retorna o primeiro livro encontrado.
-*/
+
 private List<Livro> livroList;
 public catalogoLivro(){this.catLivros = new ArrayList<>();}
 
@@ -20,7 +20,7 @@ public adicionarLivro(String titulo, String autor, int anoPublicacao){
     catLivro.add(new Livro(titulo, autor, anoPublicacao));
 }
 
-public esquisarPorAutor(String autor){
+public PesquisarPorAutor(String autor){
     list<Livro> livroPorAutor = new ArrayList<>();
      if (!CatLivro.isEmpty()) {
             for (Item l : CatLivro) {
@@ -65,5 +65,5 @@ public static void main(String[] args){
     ctLivros.adicionarLivro("Livro 4 ","Autor 4",2020);
     ctLivros.adicionarLivro("Livro 5 ","Autor 5",2020);
 }
-
+*/
 }

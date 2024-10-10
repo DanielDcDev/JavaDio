@@ -1,11 +1,11 @@
-package com.javadio.ordenacao;
+package com.javadio.list.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class OrdenacaoPessoas {
-  //atributo
+  /*//atributo
   private List<Pessoa> pessoaList;
 
   public OrdenacaoPessoas() {
@@ -54,5 +54,5 @@ public class OrdenacaoPessoas {
 
     // Ordenando e exibindo por altura
     System.out.println(ordenacaoPessoas.ordenarPorAltura());
-  }
+  }*/
 }

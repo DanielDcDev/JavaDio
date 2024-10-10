@@ -1,4 +1,4 @@
-package com.javadio;
+package com.javadio.list;
 
 public class Tarefa {
 //atributo

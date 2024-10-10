@@ -1,4 +1,4 @@
-package com.javadio;
+package com.javadio.list;
 
 import java.util.ArrayList;
 import java.util.List;

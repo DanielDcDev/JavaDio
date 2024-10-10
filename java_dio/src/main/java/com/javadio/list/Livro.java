@@ -1,4 +1,4 @@
-package com.javadio;
+package com.javadio.list;
 
 public class Livro {
     /*Crie uma classe chamada "CatalogoLivros" que possui uma lista de objetos do tipo "Livro" como 
