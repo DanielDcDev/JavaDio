@@ -14,6 +14,9 @@ public class ConsumerExample {
             }
         };
     
+numeros.stream().filter( a->a %2 == 0)
+        .forEachOrdered(System.out::println);
+
     numeros.stream().forEach(n -> {
         if (n % 2 == 0 ) {
             System.out.println(n);
