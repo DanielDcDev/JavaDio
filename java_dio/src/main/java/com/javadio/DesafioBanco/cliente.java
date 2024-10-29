@@ -1,8 +1,8 @@
 package com.javadio.DesafioBanco;
 
-public class cliente {
+public class Cliente {
     
-    public String nome;
+    private String nome;
 
     
 }
