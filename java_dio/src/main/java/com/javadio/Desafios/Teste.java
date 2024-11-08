@@ -1,4 +1,4 @@
-package com.javadio;
+package com.javadio.desafio;
 
 import java.util.Scanner;
 
